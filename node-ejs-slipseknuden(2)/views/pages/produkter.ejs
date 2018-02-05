@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head %>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <% include ../partials/header %>
+        </header>
+
+        <main>
+
+            <% include ../partials/pagenav %>
+                <div class="prod_sec">
+                    <% vare.forEach(function(en_vare) {
+                
+                      %>
+                        <div class="prod_slips">
+                            <img src="<%=en_vare.billede%>" alt="">
+                            <h3>
+                                <%=en_vare.producent%>
+                            </h3>
+                            <h4>
+                                <%=en_vare.navn%>
+                            </h4>
+                            <P>
+                                <%=en_vare.tekst%>
+                            </P>
+                            <p>
+                                <%=en_vare.pris%>
+                            </p>
+                        </div>
+                        <%  }); %>
+                </div>
+
+
+
+                <div class="pagenav_text pagenav_textone">
+                    <h3>SLIPSEKNUDEN ONLINE</h3>
+                    <p>VI LANCERE NU VORES HJEMMESIDE MED BILLEDER AF VORES ALLER FINESTE SLIPS</p>
+                    <p>LÆS MERE...</p>
+                </div>
+                <div class="pagenav_text">
+                    <h3>SLIPSEKNUDEN ONLINE</h3>
+                    <p>VI LANCERE NU VORES HJEMMESIDE MED BILLEDER AF VORES ALLER FINESTE SLIPS</p>
+                    <p>LÆS MERE...</p>
+                </div>
+                <script src="/js/index.js"></script>
+        </main>
+
+        <footer>
+            <% include ../partials/footer %>
+        </footer>
+    </div>
+
+</body>
+
+</html>
+
+
+<!-- <div class="prod_sec">
+                    <div class="prod_slips">
+
+                        <img src="/img/slips1.png" alt="#">
+                        <div class="slipse_text">
+                            <h2>Sleek Fabrics UK</h2>
+                            <p>Sort nat, slipset til den ultra stilbevidste</p>
+                            <p>DKK 900,-</p>
+                            <button>INFO</button>
+                        </div>
+                    </div>
+
+                    <div class="prod_slips">
+                        <img src="/img/slips1.png" alt="#">
+                        <div class="slipse_text">
+                            <h2>Sleek Fabrics UK</h2>
+                            <p>Sort nat, slipset til den ultra stilbevidste</p>
+                            <p>DKK 900,-</p>
+                            <button>INFO</button>
+                        </div>
+                    </div>
+
+                    <div class="prod_slips">
+
+                        <img src="/img/slips1.png" alt="#">
+                        <div class="slipse_text">
+                            <h2>Sleek Fabrics UK</h2>
+                            <p>Sort nat, slipset til den ultra stilbevidste</p>
+                            <p>DKK 900,-</p>
+                            <button>INFO</button>
+                        </div>
+                    </div>
+
+                    <div class="prod_slips">
+                        <img src="/img/slips1.png" alt="#">
+                        <div class="slipse_text">
+                            <h2>Sleek Fabrics UK</h2>
+                            <p>Sort nat, slipset til den ultra stilbevidste</p>
+                            <p>DKK 900,-</p>
+                            <button>INFO</button>
+                        </div>
+                    </div>
+
+                    <div class="prod_slips">
+
+                        <img src="/img/slips1.png" alt="#">
+                        <div class="slipse_text">
+                            <h2>Sleek Fabrics UK</h2>
+                            <p>Sort nat, slipset til den ultra stilbevidste</p>
+                            <p>DKK 900,-</p>
+                            <button>INFO</button>
+                        </div>
+                    </div>
+
+                    <div class="prod_slips">
+                        <img src="/img/slips1.png" alt="#">
+                        <div class="slipse_text">
+                            <h2>Sleek Fabrics UK</h2>
+                            <p>Sort nat, slipset til den ultra stilbevidste</p>
+                            <p>DKK 900,-</p>
+                            <button>INFO</button>
+                        </div>
+                    </div>
+
+                    <div class="prod_slips">
+                        <img src="/img/slips1.png" alt="#">
+                        <div class="slipse_text">
+                            <h2>Sleek Fabrics UK</h2>
+                            <p>Sort nat, slipset til den ultra stilbevidste</p>
+                            <p>DKK 900,-</p>
+                            <button>INFO</button>
+                        </div>
+                    </div>
+
+                    <div class="prod_slips">
+
+                        <img src="/img/slips1.png" alt="#">
+                        <div class="slipse_text">
+                            <h2>Sleek Fabrics UK</h2>
+                            <p>Sort nat, slipset til den ultra stilbevidste</p>
+                            <p>DKK 900,-</p>
+                            <button>INFO</button>
+                        </div>
+                    </div>
+
+                    <div class="prod_slips">
+                        <img src="/img/slips1.png" alt="#">
+                        <div class="slipse_text">
+                            <h2>Sleek Fabrics UK</h2>
+                            <p>Sort nat, slipset til den ultra stilbevidste</p>
+                            <p>DKK 900,-</p>
+                            <button>INFO</button>
+                        </div>
+                    </div>
+                </div> -->

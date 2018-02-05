@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<% include ../partials/head %>
+</head>
+
+<body>
+	<div class="container">
+
+		<header>
+			<% include ../partials/header %>
+		</header>
+
+		<main>
+
+			<% include ../partials/pagenav %>
+
+				<div class="intro_tekst">
+					<h2>SLIPSEKNUDEN</h2>
+					<p>Slipseknuden blev etableret i 1984 da og blev straks kendt som en butik med slips i de aller fineste kvalietsslips.
+						Tilbage i 80'erne var der 5 ansatte og siden er det gået enormt stærkt, i dag er slipseknuden en verdensomspændende
+						æde af slipsebutkker fordelt i hele europa med tusindvis af ansatte. Slipseknuden har kun det ypperste indenfor slips.
+						Hos os finder du kvalitetsvarer der er usammenlignelige med andre slips. Et slips fra os vil bliver bemærket overalt
+						du måtte færdes. Vores slips signalere kvaltet og god smag! </p>
+				</div>
+				<img src="/img/10_tern.jpg" class="om_img" alt="">
+
+				<div class="pagenav_text pagenav_textone">
+					<h3>SLIPSEKNUDEN ONLINE</h3>
+					<p>VI LANCERE NU VORES HJEMMESIDE MED BILLEDER AF VORES ALLER FINESTE SLIPS</p>
+					<p>LÆS MERE...</p>
+				</div>
+				<div class="pagenav_text">
+					<h3>SLIPSEKNUDEN ONLINE</h3>
+					<p>VI LANCERE NU VORES HJEMMESIDE MED BILLEDER AF VORES ALLER FINESTE SLIPS</p>
+					<p>LÆS MERE...</p>
+				</div>
+
+				<div class="emp_sec">
+					<% medarbejdere.forEach(function(en_medarbejdere) {
+					
+						  %>
+						<div class="emp_div">
+
+							<img src="<%=en_medarbejdere.billede%>" alt="">
+							<h4>
+								<%=en_medarbejdere.navn%>
+							</h4>
+							<P>
+								<%=en_medarbejdere.job%>
+							</P>
+							<p>
+								Email:
+								<%=en_medarbejdere.email%>
+							</p>
+						</div>
+						<%  }); %>
+				</div>
+
+
+				<script src="/js/index.js"></script>
+		</main>
+
+		<footer>
+			<% include ../partials/footer %>
+		</footer>
+	</div>
+</body>
+
+</html>

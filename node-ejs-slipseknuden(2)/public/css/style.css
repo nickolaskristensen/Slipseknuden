@@ -1,0 +1,218 @@
+body {
+    /* background-image: url("/img/land.jpg");
+    background-size: 100% auto;
+    background-attachment: fixed; */
+    background-color: white;
+}
+
+.navbar-default {
+    background-color: #000000;
+    border-color: #ffffff;
+    margin-bottom: 0;
+    border: none;
+    margin-top: -40px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+.fa {
+    color: white;
+}
+
+.header_fa {
+    margin-right: 18px;
+}
+
+.header_div {
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 12px;
+}
+
+.slipse {
+    display: inline-block;
+}
+
+.slipse_two {
+    margin-left: 140px;
+}
+
+.slipse_text {
+    margin-left: 50px;
+}
+
+.slipse_text h2 {
+    margin-left: 0px;
+}
+
+.all_slipse {
+    width: 75%;
+    float: right;
+    padding-left: 110px;
+}
+
+.pagenav_text {
+    width: 20%;
+    margin-top: 80px;
+}
+
+.textbox_btm {
+    width: 67%;
+    float: right;
+    margin-top: -300px;
+}
+
+.textbox_btm p {
+    margin-left: 50px;
+}
+
+/* --------------- PRODUKTER SIDEN ------------------ */
+
+.prod_sec {
+    width: 78%;
+    float: right;
+}
+
+.prod_slips {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+
+.prod_slips img {
+    width: 150px;
+    height: 200px;
+    margin-left: 55px;
+}
+
+/* --------------- KONTAKT SIDEN ------------------ */
+
+.formular {
+    width: 50%;
+    display: inline-block;
+}
+
+.formular input {
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+
+.form_label {
+    width: 40%;
+    display: inline-block;
+}
+
+.form_input {
+    width: 60%;
+    float: right;
+}
+
+.form_label h3 {
+    display: block;
+    margin-right: 20px;
+}
+
+.input_navn {
+    margin-top: 20px;
+}
+
+.kontakt_sec {
+    width: 75%;
+    float: right;
+}
+
+.kon_slips {
+    display: inline-block;
+    float: right;
+}
+
+.map_sec {
+    width: 75%;
+    float: right;
+    margin-top: 20px;
+}
+
+.map_text {
+    width: 50%;
+    display: inline-block;
+    margin-top: 255px;
+}
+
+.map_img {
+    width: 50%;
+    float: right;
+}
+
+.map_img img {
+    width: 400px;
+    height: 400px;
+}
+
+/* --------------- OMSLIPSEKNUDEN SIDEN ------------------ */
+
+.intro_tekst {
+    width: 70%;
+    float: right;
+    margin-top: -35px;
+}
+
+.intro_tekst h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.om_img {
+    width: 50%;
+    float: right;
+    margin-top: -226px;
+}
+
+.emp_sec {
+    width: 70%;
+    float: right;
+    margin-top: -200px;
+}
+
+.emp_div {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.emp_div img {
+    margin-right: 50px;
+    width: 150px;
+    height: 180px;
+}
+
+/* --------------- NYHEDER SIDEN ------------------ */
+
+span {
+    font-weight: bold;
+}
+
+.nhd_img {
+    width: 50%;
+    float: right;
+}
+
+.intro_tekst h5 {
+    color: #D8970B;
+}
+
+.intro_tekst p {
+    margin: 0;
+}
+
+/* --------------- GARANTI SIDEN ------------------ */
+
+.gar_img {
+    width: 50%;
+    float: right;
+}
+
+.adr {
+    font-weight: bold;
+}

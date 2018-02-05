@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head %>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <% include ../partials/header %>
+        </header>
+
+        <main>
+
+            <% include ../partials/pagenav %>
+                <div class="kontakt_sec">
+                    <div class="formular">
+                        <div class="form_label">
+                            <h3>Navn</h2>
+                                <h3>E-mail</h2>
+                                    <h3>Besked</h2>
+                        </div>
+                        <div class="form_input">
+                            <input type="text" class="input_navn">
+
+                            <input type="text">
+
+                            <textarea name="besked" id="kon_besked" cols="30" rows="10"></textarea>
+                            <button>SEND</button>
+                        </div>
+                    </div>
+
+                    <div class="kon_slips">
+                        <img src="/img/10_tern.jpg" alt="#">
+                    </div>
+                    <div class="map_sec">
+                        <div class="map_text">
+                            <p class="adr">Slipseknuden</p>
+                            <p class="adr">Slipsevej 79</p>
+                            <p class="adr">4000 Holbæk</p>
+                            <p class="adr">Telefon: 5944-1234</p>
+                            <p class="adr">slips@slipseknuden.dk</p>
+                        </div>
+
+                        <div class="map_img">
+                            <img src="/img/map.png" alt="#">
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="pagenav_text pagenav_textone">
+                    <h3>SLIPSEKNUDEN ONLINE</h3>
+                    <p>VI LANCERE NU VORES HJEMMESIDE MED BILLEDER AF VORES ALLER FINESTE SLIPS</p>
+                    <p>LÆS MERE...</p>
+                </div>
+                <div class="pagenav_text">
+                    <h3>SLIPSEKNUDEN ONLINE</h3>
+                    <p>VI LANCERE NU VORES HJEMMESIDE MED BILLEDER AF VORES ALLER FINESTE SLIPS</p>
+                    <p>LÆS MERE...</p>
+                </div>
+                <script src="/js/index.js"></script>
+        </main>
+
+        <footer>
+            <% include ../partials/footer %>
+        </footer>
+    </div>
+</body>
+
+</html>
